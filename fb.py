@@ -15,9 +15,7 @@ class FizzBuzz:
             return True
         else:
             return False
-
-    def return_rest():
-        pass
+        
 
 n = int(input())
 fb = FizzBuzz(n)
