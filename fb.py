@@ -5,7 +5,10 @@ class FizzBuzz:
         self.number = n
 
     def return_fizz():
-        pass
+        if self.number % 3 == 0:
+            return True
+        else:
+            return False
 
     def return_buzz():
         pass
@@ -27,7 +30,7 @@ if not fb.return_fizz() and not fb.return_buzz():
     answer = str(n)
 
 print(answer)
-i
+
 
 
 
