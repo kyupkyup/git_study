@@ -13,6 +13,21 @@ class FizzBuzz:
     def return_rest():
         pass
 
+n = int(input())
+fb = FizzBuzz(n)
+
+answer = ""
+if fb.return_fizz():
+    answer += "fizz"
+
+if fb.return_buzz():
+    answer += "buzz"
+
+if not fb.return_fizz() and not fb.return_buzz():
+    answer = str(n)
+
+print(answer)
+i
 
 
 
