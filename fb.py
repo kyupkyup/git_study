@@ -11,7 +11,10 @@ class FizzBuzz:
             return False
 
     def return_buzz():
-        pass
+        if self.number % 5 == 0:
+            return True
+        else:
+            return False
 
     def return_rest():
         pass
